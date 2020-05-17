@@ -47,6 +47,8 @@ def convert_from_url(url: str):
         text += str(p)
     text += '</body>'
 
+    log.debug("doc = " + text)
+
     filename_base = match.group(1).strip().replace('/', '-')
     filename = filename_base + ".pdf"
 
@@ -57,7 +59,10 @@ def convert_from_url(url: str):
             'margin-top': '1in',
             'margin-bottom': '1in',
             'margin-left': '1in',
-            'margin-right': '1in'
+            'margin-right': '1in',
+            'disable-external-links': '',
+            'disable-javascript': '',
+            'minimum-font-size': '12'
             }
 
     pdfkit.from_string(text, filename, options=options)
