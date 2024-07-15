@@ -6,4 +6,4 @@ lxml==4.6.5
 pdfkit==0.6.1
 requests==2.23.0
 soupsieve==2.0
-urllib3==1.26.5
+urllib3==1.26.19
