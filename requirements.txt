@@ -4,6 +4,6 @@ chardet==3.0.4
 idna==2.9
 lxml==4.6.5
 pdfkit==0.6.1
-requests==2.23.0
+requests==2.32.2
 soupsieve==2.0
 urllib3==1.26.19
