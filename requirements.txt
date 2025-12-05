@@ -6,4 +6,4 @@ idna==3.7
 pdfkit==0.6.1
 requests==2.32.2
 soupsieve==2.0
-urllib3==1.26.19
+urllib3==2.6.0
